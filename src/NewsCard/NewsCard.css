@@ -1,0 +1,37 @@
+.card{
+    display:flex;
+    width:100%;
+    box-shadow: 0 2px 4px black;
+    padding:13px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+}
+.newsImage{
+    object-fit: cover;
+    height:320px;
+    width: 260px;
+}
+
+.newsText{
+    padding-right: 10px;
+    padding-left: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.readmore{
+    color:grey;
+    font-size: 18px;
+    font-weight: 300;
+}
+#ca{
+    color:green;
+    text-decoration: none;
+}
+
+.source{
+    color:red;
+
+}
+
